@@ -19,7 +19,7 @@ export const ProductImg = ({img}:Img) => {
     }
 
     return (
-        <img className={`${styles.productImg}`} src={imgToShow} alt="Product" />
+        <img className={`${styles.productImg}`} src={imgToShow} alt="product-shop" />
     )
 }
 

@@ -8,7 +8,14 @@ export interface Args {
   initialValue?: Initial_Value;
 }
 
-export const useProduct = ({ onChange, product, counter = 0, initialValue }: Args) => {
+export interface Hook {
+  value:number;
+  increaseBy: (n:number) => void;
+  isMaxReached:boolean;
+  reset: () => void;
+}
+
+export const useProduct = ({ onChange, product, counter = 0, initialValue }: Args):Hook => {
   const [value, setValue] = useState<number>(initialValue?.count || counter);
 
   const isControlled = useRef(!!onChange);

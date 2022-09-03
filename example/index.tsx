@@ -6,7 +6,7 @@ import { ProductCart } from '../.'
 const product = {
   id: '1',
   title: 'Product',
-  // url: ''
+  // url: './coffee-mug.png'
 }
 
 const App = () => {

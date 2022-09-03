@@ -7,6 +7,11 @@
     "dist",
     "src"
   ],
+  "repository": {
+    "url": "https://github.com/kev-tsx/kev-shopi",
+    "type": "git"
+  },
+  "homepage": "https://google.com/",
   "engines": {
     "node": ">=10"
   },
@@ -59,5 +64,12 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.4.0",
     "typescript": "^3.9.10"
-  }
+  },
+  "keywords": [
+    "kev",
+    "product",
+    "card",
+    "cart",
+    "shop"
+  ]
 }
